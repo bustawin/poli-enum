@@ -6,7 +6,7 @@ test_requires = ['pytest']
 
 setup(
     name='poli-enum',
-    version='1.0',
+    version='1.0.1',
     url='https://github.com/bustawin/poli-enum',
     project_urls={
         'Documentation': 'https://github.com/bustawin/poli-enum',
@@ -16,8 +16,8 @@ setup(
     license='AGPLV3',
     author='Xavier Bustamante Talavera',
     author_email='xavier@bustawin.com',
-    description='Political enums: continent, country (ISO 3166-1), subdivision (ISO 3166-2), '
-                'currency (ISO 4217) and keyboard layouts (debian).',
+    description='Political Enums: continent, country (ISO 3166-1), subdivision (ISO 3166-2), '
+                'currency (ISO 4217 + symbols), and keyboard layouts (debian).',
     packages=find_packages(),
     include_package_data=True,
     python_requires='>=3.6',

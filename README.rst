@@ -55,7 +55,7 @@ Currency codes as for ISO 4217 and currency symbols as for
   from poli_enum.currency import Currency
   Currency.EUR.value == 34
 
-For ``Currency.EUR`` and ``Currency.USD``, you can get their currency sign:
+You can get the currency symbol:
 
 .. code-block:: python
 
